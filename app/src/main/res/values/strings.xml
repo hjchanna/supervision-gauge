@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Gauge</string>
+
+    <!--system-->
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="not_ok">NOT OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="warning">WARNING</string>
+    <string name="error">ERROR</string>
+    <string name="success">SUCCESS</string>
+
+    <!--login-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_error">Enter valid username</string>
+    <string name="password_error">Enter valid password</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="login_failed_message">The username or password you entered is incorrect.</string>
+
+    <!--main activity-->
+    <string name="logout_confirmation">Do you want to logout?</string>
+
+    <!--domainId select activity-->
+    <string name="start_measurement">START MEASUREMENT</string>
+    <string name="view_reports">VIEW REPORTS</string>
+
+    <!--transaction report activity-->
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="user">User</string>
+
+    <!--domainId step activity-->
+    <string name="go_back_confirmation">Do you sure want to discard this step and go to previous step?</string>
+    <string name="skip_confirmation">Do you want to skip</string>
+    <string name="skip">Skip</string>
+    <string name="dont_skip">Don\'t Skip</string>
+    <string name="value_confirmation">Please enter the value.</string>
+    <string name="value_out_of_range">Value out of limit. Please inform to the site engineer.</string>
+    <string name="incomplete_domain">You have incomplete readings. Do you want to continue incomplete reading?</string>
+
+    <!--map activity-->
+    <string name="follow_the_map">FOLLOW THE MAP</string>
+
+    <!--sync activity-->
+    <string name="sync_message">You are about to sync database. Please click button to start sync.</string>
+    <string name="sync">SYNC</string>
+</resources>

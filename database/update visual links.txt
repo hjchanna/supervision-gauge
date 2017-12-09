@@ -1,0 +1,10 @@
+delete from domain_step;
+
+
+
+
+
+update domain_step set visual_link = visual_link || ".jpg" where visual_type = "IMAGE";
+update domain_step set visual_link = visual_link || ".mp4" where visual_type = "VIDEO";
+
+update domain_step set map_from_previous_link = map_from_previous_link || ".gif" where map_from_previous_link <> "";

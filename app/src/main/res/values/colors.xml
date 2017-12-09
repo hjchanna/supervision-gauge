@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#4a4a4a</color>
+    <color name="colorPrimary">#878787</color>
+    <color name="colorHeader">#eeeeee</color>
+
+    <color name="colorAccent">#c90f1d</color>
+
+    <color name="colorActiveButton">#c90f1d</color>
+    <color name="colorActiveButtonPressed">#870710</color>
+
+    <color name="main_start">#c90e1c</color>
+    <color name="main_sync">#870710</color>
+    <color name="main_report">#a00518</color>
+    <color name="main_logout">#8c8c8c</color>
+</resources>
