@@ -37,7 +37,7 @@ public class GaugeDatabaseHelper extends SQLiteOpenHelper {
     public GaugeDatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         this.context = context;
-//        onUpgrade(getReadableDatabase(), 1, 1);
+        onUpgrade(getReadableDatabase(), 1, 1);
     }
 
 
@@ -66,7 +66,7 @@ public class GaugeDatabaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         Log.d("DB CREATE", "Creating new db......................");
 
-        InputStream inputStream = context.getResources().openRawResource(R.raw.database);
+        InputStream inputStream = context.getResources().openRawResource(R.raw.database_naiwala);
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         String line;
 
