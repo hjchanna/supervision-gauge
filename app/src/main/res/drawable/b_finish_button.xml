@@ -11,9 +11,9 @@
             <item>
                 <bitmap android:gravity="center" android:src="@drawable/b_finish_text" />
             </item>
-            <item>
-                <ripple android:color="@color/colorActiveButton"/>
-            </item>
+            <!--<item>-->
+                <!--<ripple android:color="@color/colorActiveButton"/>-->
+            <!--</item>-->
         </layer-list>
     </item>
     <item>

@@ -1,0 +1,32 @@
+id,domain_id,number,title,main_group,sub_group,visual_type,visual_link,visual_description,next_step,show_map,last_step,map_from_previous_link,enable_skip,skip_to_step,map_from_beginning_link,value_type,value_hint,unit,default_value,default_from_value,default_to_value,report_description
+1,1,,WELCOME,GENERATOR ROOM,SAFETY ITEMS,NONE,,Welcome to the Generator Room. Please sure wear all required PPEs (personal protection equipments),2,0,0,,0,,,NONE,,,,,,
+2,1,,EAR PROTECTION,GENERATOR ROOM,SAFETY ITEMS,IMAGE,36,Please wear the ear protections.,3,1,0,01,0,,,NONE,,,,,,
+3,1,,HELMET WITH LIGHT,GENERATOR ROOM,SAFETY ITEMS,IMAGE,37,Please wear the safety helmet.,4,0,0,,0,,,NONE,,,,,,
+4,1,,SWITCH ON LIGHT,GENERATOR ROOM,SAFETY ITEMS,NONE,,Please switch on lights.,5,0,0,,0,,,NONE,,,,,,
+5,1,,OIL LEVEL,GENERATOR ROOM,GENARAL,IMAGE,2.1,"Ensure the Lube oil level with in the allowable limit (Must be at normal range, see the tag)",6,1,0,02,0,,,BOOLEAN,,,,,,Oil Level
+6,1,,OIL LEAKS,GENERATOR ROOM,GENARAL,IMAGE,3,Inspect to verify NO any oil leaks on or around the engine body.,7,1,0,03,0,,,BOOLEAN,,,,,,Oil Leaks
+7,1,,TRACO FILTER,GENERATOR ROOM,FUEL LEAKS,IMAGE,4,Inspect to verify NO any fuel leaks on the Traco filters.,8,1,0,04,0,,,BOOLEAN,,,,,,Track Filter fuel leaks
+8,1,,PIPE LINE,GENERATOR ROOM,FUEL LEAKS,IMAGE,4,Inspect to verify NO any fuel leaks on the floor diesel path ways.,9,0,0,,0,,,BOOLEAN,,,,,,Pipeline fuel leaks
+9,1,,DAY TANK DEISEL LEVEL,GENERATOR ROOM,DIESAL TANK,IMAGE,5,Check and log day tank Diesal level.,10,1,0,05,0,,,DECIMAL,,L,,1800,2300,Day tank diesal level
+10,1,,MAIN TANK DEISEL LEVEL,GENERATOR ROOM,DIESAL TANK,IMAGE,34,Check the availability level of diesel level in Main Storage,11,0,0,,0,,,DECIMAL,,L,,7500,99999,Main tank diesal level
+11,1,,BATTERY VOLTAGE,GENERATOR ROOM,CONTROL PANEL,VIDEO,6,Check and log the battery voltage.,12,1,0,06,0,,,DECIMAL,,V,,24,28,Control panel Battery Voltage
+12,1,,kWh,GENERATOR ROOM,CONTROL PANEL,VIDEO,7,Check and log the total kWh.,13,0,0,,0,,,DECIMAL,,kWh,,,,Control panel kWh
+13,1,,RUNNING HOURS,GENERATOR ROOM,CONTROL PANEL,VIDEO,8,Check and log the total running hours.,14,0,0,,0,,,DECIMAL,,h,,,,Control panel Running hours
+14,1,,HEATER COIL,GENERATOR ROOM,ALTERNATOR,IMAGE,9,Check the heater coil condition(Touch and feel the warm condition of the alternator housing),15,1,0,09,0,,,BOOLEAN,,,,,,Alternator Heater Oil
+15,1,,AIR RESTRICTION GUAGE,GENERATOR ROOM,AIR FILTER,IMAGE,10,Check the indicator of AIR RESTRICTION GAUGE (Indicator color - None is OK),16,1,0,10,0,,,BOOLEAN,,Green,,,,Air restriction gauge
+16,1,,BATTERY CHARGER INDICATOR,GENERATOR ROOM,BATTERY CHARGER,IMAGE,11,Make sure the battery charger is ON mode(Check the indicator bulb is Lightup),17,1,0,11,0,,,BOOLEAN,,,,,,Battery Charger Indicator
+17,1,,BATTERY WATER LEVEL,GENERATOR ROOM,BATTERY CONDITION,IMAGE,12.1,Check the battery water level.,18,0,0,,0,,,BOOLEAN,,,,,,Battery water level
+18,1,,WIRE TERMINALS,GENERATOR ROOM,BATTERY CONDITION,IMAGE,31,Check the battery wire terminal conditions.,19,0,0,,0,,,BOOLEAN,,,,,,Wire terminals
+19,1,,TENSION,GENERATOR ROOM,RADIATOR FAN,IMAGE,13,Check the radiator fan belt tension.,20,1,0,13,0,,,BOOLEAN,,,,,,Radiator fan tension
+20,1,,PHYSICAL DAMAGES,GENERATOR ROOM,RADIATOR FAN,IMAGE,30,Check the radiator fan belt physical damages.,21,0,0,,0,,,BOOLEAN,,,,,,Radiator fan damages
+21,1,,COOLENT LEVEL,GENERATOR ROOM,RADIATOR COOLENT,IMAGE,14,Check the radiator coolant at the required level through the side glass.,22,1,0,14,0,,,BOOLEAN,,,,,,Radiator Coolent Level
+22,1,,SELECTOR SWITCH,GENERATOR ROOM,SELECTOR SWITCH,VIDEO,15,"Switch on the Generator manually (select the rotator switch to ""Manual"" mode and press ""Manual Run/Stop"" button.",23,1,0,15,0,,,NONE,,,,,,
+23,1,,LINE VOLTAGE,GENERATOR ROOM,CONTROL PANEL,VIDEO,16,Check and log the line voltage.,24,0,0,,0,,,DECIMAL,,V,,395,411,Control panel Line voltage
+24,1,,FREQUENCY,GENERATOR ROOM,CONTROL PANEL,VIDEO,17,Check and log the frequency.,25,0,0,,0,,,DECIMAL,,Hz,,49.5,50.5,Control panel Frequency
+25,1,,AMPHERE,GENERATOR ROOM,CONTROL PANEL,VIDEO,18,Check the Amphere. (Only the Generator in running with the load),26,0,0,,1,26,,DECIMAL,,A,,,,Control panel Amphere
+26,1,,OIL PRESSURE,GENERATOR ROOM,CONTROL PANEL,VIDEO,19,Check and log the oil pressure.,27,0,0,,0,,,DECIMAL,,kPa,,520,532,Control panel Oil Pressure
+27,1,,RPM,GENERATOR ROOM,CONTROL PANEL,VIDEO,20,Check and log the RPM,28,0,0,,0,,,DECIMAL,,rpm,1500,,,Control panel RPM
+28,1,,SYSTEM ABNORMALITIES,GENERATOR ROOM,EXHAUST SYSTEM,IMAGE,21,"Check the exhaust system abnormalities (Color, Sound, Vibration, and etc.)",29,1,0,21,0,,,BOOLEAN,,,,,,System Abnormalities
+29,1,,OIL HORSES,GENERATOR ROOM,OIL LEAKS,IMAGE,33,Inspect to verify NO oil leaks in oil horses,30,1,0,22,0,,,BOOLEAN,,,,,,Oil Horses oil leaks
+30,1,,ENGINE,GENERATOR ROOM,OIL LEAKS,IMAGE,22,Inspect to verify NO oil leaks in engine,31,0,0,,0,,,BOOLEAN,,,,,,Engine oil leaks
+31,1,,FILTERS,GENERATOR ROOM,OIL LEAKS,IMAGE,32,Inspect to verify NO oil leaks in filters,1,0,1,,0,,,BOOLEAN,,,,,,Filter oil leaks

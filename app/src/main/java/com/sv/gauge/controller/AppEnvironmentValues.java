@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
  */
 public class AppEnvironmentValues {
     public static final String SERVER_ADDRESS
-            = "http://www.la-gauge.supervisionglobal.com";
+            = "http://www.nw-gauge.supervisionglobal.com";
 //            = "http://mohan-laptop:8080";
 //            = "http://www.test.supervisionglobal.com";
     //

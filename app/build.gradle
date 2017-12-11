@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.sv.gauge"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 18
         versionCode 1
         versionName "1.0"
 //        multiDexEnabled true

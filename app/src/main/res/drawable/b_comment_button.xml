@@ -8,12 +8,12 @@
                     <padding android:top="10dp" android:bottom="10dp"/>
                 </shape>
             </item>
-            <!--<item>-->
-                <!--<bitmap android:gravity="center" android:src="@drawable/b_back_text" />-->
-            <!--</item>-->
             <item>
-                <ripple android:color="@color/colorActiveButton"/>
+                <bitmap android:gravity="center" android:src="@drawable/b_back_text" />
             </item>
+            <!--<item>-->
+                <!--<ripple android:color="@color/colorActiveButton"/>-->
+            <!--</item>-->
         </layer-list>
     </item>
     <item >
